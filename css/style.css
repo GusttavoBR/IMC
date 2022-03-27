@@ -1,41 +1,31 @@
-{
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-color: rgba(196, 177, 177, 0.548);
+    background-color: #4CAFFA
 
 }
 
 h1 {
     margin-left: 20px;
-    margin-top: 20px;
-    text-align: center;
-    font: normal 50pt Arial;
+    margin-top : 20px;
+    text-align : center;
+    font       : normal 50pt Arial;
 }
 
 p#inf {
     margin-left: 20px;
-    margin-top: 20px;
-    text-align: center;
-    font: normal 20pt Arial;
-    color: rgb(228, 79, 228);
+    margin-top : 20px;
+    text-align : center;
+    font       : normal 20pt Arial;
+    color      : #49657A
 }
 
 #all div {
     margin-left: 20px;
-    margin-top: 20px;
-    text-align: center;
-    font: normal 20px Arial;
+    margin-top : 20px;
+    text-align : center;
+    font       : normal 20px Arial;
+    
 }
 
-/*div#altura {
-    margin-left: 20px;
-    margin-top: 20px;
-    text-align: center;
-    font: normal 20px Arial;
-}*/
 input {
     font: normal 20pt Arial;
 }
@@ -46,12 +36,31 @@ div#status {
 
 div#all {
     border: 10px solid;
-    width: 40%;
+    width : 40%;
+    background-color: #96CFFB
 }
 
 div#caixa {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items    : center;
+    height         : 100vh;
+}
+
+input#nome {
+    margin-left     : 2px;
+    background-color: rgb(235, 235, 235);
+    width: 73%;
+}
+
+input#altura {
+    width: 210px;
+}
+
+input#peso {
+    width: 210px;
+}
+
+#nome::placeholder {
+    text-align: center;
 }
